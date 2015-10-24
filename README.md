@@ -109,7 +109,7 @@ write.table(td3, file = "output.txt", row.names = F)
 ```
 To read the data into R the following command should be used: 
 ```
-read.table("output.txt", header = T)
+read.table("output.txt", header = T) 
 ```
 
 
