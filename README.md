@@ -2,7 +2,7 @@
 This repository contains the script, codebook, and other associated documents with the course project.
 
 ## Course project description
- As mentioned in the submission page of the project, the purpose of this project is to demonstrate the student's ability to collect, work with, and clean a data set. The final goal is to prepare tidy data that can be used for later analysis. It is required to submit: 
+As mentioned in the submission page of the project, the purpose of this project is to demonstrate the student's ability to collect, work with, and clean a data set. The final goal is to prepare tidy data that can be used for later analysis. It is required to submit: 
  1. a tidy data set 
  2. a link to a github repository containing the script for performing the analysis. 
  3. a code book that describes the variables, the data, and any transformation carried out to clean up the data.
@@ -10,11 +10,11 @@ This repository contains the script, codebook, and other associated documents wi
 ## Background and data
 One of the most exciting areas in the field of data science right now is wearable computing. Different companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data used in this project represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
-The use of the data set is acknowledged from the following publication:
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012. 
-
 The specific data used in this project are downloaded from following link (accessed 21 October 2015):
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The use of the data set is acknowledged from the following publication:
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012. 
 
 ## Project requirements
 Student should create one R script called run_analysis.R that does the following.   
@@ -111,7 +111,5 @@ To read the data into R the following command should be used:
 ```
 read.table("output.txt", header = T) 
 ```
-
-
-
-
+## Running the analysis
+To run the code use source the `run_analysis.R` script. Note that the script assumes that the downloaded zip file is unzipped into the working directory. 
